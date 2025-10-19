@@ -19,7 +19,9 @@ body {
     margin-right: auto;
     width: 50%;
 }
-
+.translate {
+  padding-top: 0px;
+}
 coolfont {
     text-align: center;
     color: #4E2B86; 
