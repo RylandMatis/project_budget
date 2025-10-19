@@ -1,24 +1,36 @@
 body {
-        min-height: 100%;
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        background: linear-gradient(to bottom, #ffffff, #250436);
-        background-repeat: no-repeat;
-        background-size: 100% 110%;
-    }
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(to bottom, #ffffff, #250436);
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+}
 
-    center {
-        color: #000000;
-        text-align: center;
-    }
+.centertext {
+    margin-left: auto;
+    margin-right: auto;
+    display:grid; 
+    place-items:center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
-    p {
-        color: #af6b6b;
-    }
+coolfont {
+    text-align: center;
+    color: #4E2B86; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 /* From Uiverse.io by barisdogansutcu */ 
 button {
-  margin-top: 150px;
+  margin-top: 290px;
   padding: 17px 40px;
   border-radius: 50px;
   cursor: pointer;
